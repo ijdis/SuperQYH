@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "netheritekit",
+  "version": "${version}",
+  "name": "Netherite Kit",
+  "description": "Press O to get a shulker box containing a full netherite kit.",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.example.netheritekit.NetheriteKitClient"],
+    "main": ["com.example.netheritekit.NetheriteKit"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
